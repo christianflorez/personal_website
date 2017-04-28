@@ -24,6 +24,7 @@
 .btn-success {
     @include button-variant(white, $theme-success, $theme-success);
     font-weight: 700;
+    cursor: pointer;
 }
 
 .btn-social {
