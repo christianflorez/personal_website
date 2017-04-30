@@ -22,6 +22,7 @@
         li.nav-item {
             a.nav-link {
                 color: white;
+                transition: background-color .3s ease, color .3s ease;
                 &:hover {
                     color: $theme-success;
                     outline: none;

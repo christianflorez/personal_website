@@ -38,5 +38,5 @@
     var name = "florez.christian";
     var provider = "gmail.com";
     var email = "mailto:" + name + "@" + provider; 
-    $('#email-link').attr('href', email);
+    $('.email-link').attr('href', email);
 })(jQuery); // End of use strict
