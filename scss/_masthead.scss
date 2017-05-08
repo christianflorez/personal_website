@@ -15,16 +15,25 @@ header.masthead {
         margin: 0 auto 20px;
     }
     .intro-text {
+        font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
         .name {
             display: block;
-            font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
             text-transform: uppercase;
             font-weight: 700;
             font-size: 2em;
         }
         .skills {
+            display: block;
             font-size: 1.25em;
             font-weight: 300;
+            padding-bottom: .5em;
+            margin: 0px 10% .5em 10%;
+            border-bottom: solid 1px #444;
+        }
+        .sub-heading {
+            display: block;
+            padding-top: .5em;
+            font-weight: 700;
         }
     }
 }
