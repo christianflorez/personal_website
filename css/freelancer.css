@@ -37,18 +37,8 @@ hr.star-primary {
   border: none;
   border-top: solid 5px;
   text-align: center;
-  max-width: 250px;
-  margin: 25px auto 30px; }
-
-hr.star-light:after,
-hr.star-primary:after {
-  content: "\f005";
-  font-family: FontAwesome;
-  display: inline-block;
-  position: relative;
-  top: -0.8em;
-  font-size: 2em;
-  padding: 0 0.25em; }
+  max-width: 600px;
+  margin: 25px auto 45px; }
 
 hr.star-light {
   border-color: white; }
@@ -74,7 +64,7 @@ section {
     font-size: 3em; }
 
 section.success {
-  background: #00695C;
+  background: linear-gradient(45deg, #00695C 0%, #00b09b 100%);
   color: white; }
 
 @media (max-width: 767px) {
@@ -183,9 +173,7 @@ header.masthead {
       display: block;
       font-size: 1.25em;
       font-weight: 300;
-      padding-bottom: .5em;
-      margin: 0px 10% .5em 10%;
-      border-bottom: solid 1px #444; }
+      margin: 0px 10% 0 10%; }
     header.masthead .intro-text .sub-heading {
       display: block;
       padding-top: .5em;
