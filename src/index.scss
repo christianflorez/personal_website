@@ -7,8 +7,8 @@ $font-size-base: 18px;
 $headings-font-family: 'Open Sans', sans-serif;
 
 $brand-primary: #1976D2;
-$brand-success: #3228D8;
-$brand-info: #0AD58D;
+$brand-success: adjust-hue($brand-primary, 30deg);
+$brand-info: adjust-hue($brand-primary, -45deg);
 
 $text-color: #555;
 
