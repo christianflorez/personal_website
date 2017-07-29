@@ -40,7 +40,7 @@ const Skills = () => {
               </ul>
             </Col>
             <Col md={4} xs={10} xsOffset={1} mdOffset={0}>
-              <h3>Methodologies/Other:</h3>
+              <h3>Other:</h3>
               <ul>
                 <li>Version Control with Git</li>
                 <li>Heroku Deployment</li>

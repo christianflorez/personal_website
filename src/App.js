@@ -4,6 +4,7 @@ import IntroJumbo from './IntroJumbo';
 import Portfolio from './Portfolio';
 import Skills from './Skills';
 import AboutMe from './AboutMe';
+import Contact from './Contact';
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
           <Portfolio />
           <Skills />
           <AboutMe />
+          <Contact />
       </div>
     );
   }
