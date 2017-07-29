@@ -75,6 +75,10 @@ img {
   padding-top: 7em;
 }
 
+.panel {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+}
+
 footer {
   background-color: $gray-darker;
   color: white;

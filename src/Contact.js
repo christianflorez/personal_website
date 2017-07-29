@@ -70,7 +70,7 @@ const Contact = () => {
               </Media.Left>
               <Media.Body>
                 <Media.Heading>Email</Media.Heading>
-                <a href="mailto:hello@christianflorez.me" class="email-link"><p>Connect with me through e-mail</p></a>
+                <a href="mailto:hello@christianflorez.me"><p>Connect with me through e-mail</p></a>
               </Media.Body>
             </Media>
           </Col>

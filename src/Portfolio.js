@@ -6,9 +6,11 @@ import PortfolioModal from './PortfolioModal';
 const buildPortfolio = () => {
   return data.portfolio.map(project => (
     <Col md={4} xs={12} key={project.name}>
-      <Panel>
+      <Panel header={project.name}>
       <Image src={project.imageURL} responsive thumbnail />
-      <h3>{project.name}</h3>
+      <br />
+      <p><strong>Built With:</strong></p>
+      <p>{project.tech}</p>
       <PortfolioModal project={project}/>
       </Panel>
     </Col>
