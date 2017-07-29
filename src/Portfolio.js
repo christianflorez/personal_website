@@ -1,20 +1,20 @@
-import React from 'react';
-import {Grid, Row, Col, Panel, Image} from 'react-bootstrap';
-import data from './data';
-import PortfolioModal from './PortfolioModal';
+import React from "react";
+import { Grid, Row, Col, Panel, Image } from "react-bootstrap";
+import data from "./data";
+import PortfolioModal from "./PortfolioModal";
 
 const buildPortfolio = () => {
-  return data.portfolio.map(project => (
+  return data.portfolio.map(project =>
     <Col md={4} xs={12} key={project.name}>
       <Panel header={project.name}>
-      <Image src={project.imageURL} responsive thumbnail />
-      <br />
-      <p><strong>Built With:</strong></p>
-      <p>{project.tech}</p>
-      <PortfolioModal project={project}/>
+        <Image src={project.imageURL} responsive thumbnail />
+        <br />
+        <p><strong>Built With:</strong></p>
+        <p>{project.tech}</p>
+        <PortfolioModal project={project} />
       </Panel>
     </Col>
-  ));
+  );
 };
 
 const Portfolio = () => {
@@ -28,7 +28,7 @@ const Portfolio = () => {
         </Col>
       </Row>
     </Grid>
-  )
+  );
 };
 
 export default Portfolio;

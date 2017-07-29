@@ -1,10 +1,5 @@
 import React, { Component } from "react";
-import {
-  Image,
-  Button,
-  Modal
-} from "react-bootstrap";
-
+import { Image, Button, Modal } from "react-bootstrap";
 
 class PortfolioModal extends Component {
   constructor() {
@@ -33,9 +28,9 @@ class PortfolioModal extends Component {
 
         <Modal show={this.state.showModal} onHide={this.close}>
           <Modal.Header closeButton>
-          <Modal.Title>
-            {project.name}
-          </Modal.Title>
+            <Modal.Title>
+              {project.name}
+            </Modal.Title>
           </Modal.Header>
           <Modal.Body>
             <Image src={project.imageURL} responsive thumbnail />
@@ -43,7 +38,11 @@ class PortfolioModal extends Component {
             <p>{project.description}</p>
             <h4>Technologies Used</h4>
             <p>{project.tech}</p>
-            <a href={project.deploymentURL} target="_blank" className="modal-links">
+            <a
+              href={project.deploymentURL}
+              target="_blank"
+              className="modal-links"
+            >
               <Button bsStyle="success">Live Demo</Button>
             </a>
             <br />
@@ -52,7 +51,7 @@ class PortfolioModal extends Component {
             </a>
           </Modal.Body>
           <Modal.Footer>
-          <Button onClick={this.close} bsStyle="info">Close</Button>
+            <Button onClick={this.close} bsStyle="info">Close</Button>
           </Modal.Footer>
         </Modal>
       </div>
