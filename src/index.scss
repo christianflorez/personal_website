@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Voces');
+
+$font-family-sans-serif: 'Raleway', sans-serif;
+$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
+
+
+@import "~bootswatch/flatly/variables";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+@import "~bootswatch/flatly/bootswatch";
+
+
+.navbar {
+  border-radius: 0px;
+  .navbar-brand {
+    font-family: 'Raleway', cursive;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 2em;
+    line-height: 21px;
+    cursor: default;
+  }
+  .navbar-brand:hover {
+    color: white;
+  }
+}
