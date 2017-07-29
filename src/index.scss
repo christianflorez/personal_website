@@ -1,25 +1,61 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway|Voces');
+@import url('https://fonts.googleapis.com/css?family=Raleway|Open+Sans');
+
+$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
 
 $font-family-sans-serif: 'Raleway', sans-serif;
-$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
+$font-size-base: 18px;
+$headings-font-family: 'Open Sans', sans-serif;
+
+$brand-primary: #1976D2;
+$brand-success: #3228D8;
+
+$text-color: #555;
+
 
 
 @import "~bootswatch/flatly/variables";
 @import "~bootstrap-sass/assets/stylesheets/bootstrap";
 @import "~bootswatch/flatly/bootswatch";
 
+a,
+a:hover {
+  transition: color .5s ease;
+}
+
+h1 {
+  margin-top: 0px;
+}
+
+h4 {
+  font-weight: bold;
+}
 
 .navbar {
   border-radius: 0px;
+  margin-bottom: 0px;
+
   .navbar-brand {
-    font-family: 'Raleway', cursive;
+    font-family: 'Open Sans', sans-serif;
     letter-spacing: 1px;
     font-weight: bold;
-    font-size: 2em;
-    line-height: 21px;
+    font-size: ($font-size-base * 1.5);
+    // line-height: 0px;
     cursor: default;
   }
   .navbar-brand:hover {
     color: white;
   }
+}
+
+img {
+  margin: auto;
+  max-height: 250px; 
+}
+
+.img-thumbnail {
+  display: block;
+}
+
+.modal-links > button {
+  margin-bottom: 1em;
 }
