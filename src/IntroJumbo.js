@@ -3,7 +3,7 @@ import { Jumbotron, Image, Grid, Row, Col} from 'react-bootstrap';
 
 const IntroJumbo = () => {
   return (
-    <Jumbotron>
+    <Jumbotron className="intro-jumbotron">
       <Grid>
         <Row>
           <Col md={3} mdOffset={1} xs={10} xsOffset={1}>

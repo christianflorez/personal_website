@@ -16,7 +16,7 @@ const NavLinks = () => {
 
 const Navigation = ({ title }) => {
   return (
-    <Navbar fluid>
+    <Navbar fluid fixedTop>
       <Navbar.Header>
         <Navbar.Brand>
           <a>{title}</a>

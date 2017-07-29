@@ -20,8 +20,10 @@ const Portfolio = () => {
   return (
     <Grid>
       <Row>
-        <h2 id="portfolio">Portfolio</h2>
-        {portfolioPanels}
+        <Col md={12} xs={10} xsOffset={1}>
+          <h2 id="portfolio">Portfolio</h2>
+          {portfolioPanels}
+        </Col>
       </Row>
     </Grid>
   )

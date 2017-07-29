@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Navigation from './Navigation';
 import IntroJumbo from './IntroJumbo';
 import Portfolio from './Portfolio';
+import Skills from './Skills';
+import AboutMe from './AboutMe';
 
 class App extends Component {
   render() {
@@ -10,6 +12,8 @@ class App extends Component {
           <Navigation title="Christian Florez" />
           <IntroJumbo />
           <Portfolio />
+          <Skills />
+          <AboutMe />
       </div>
     );
   }

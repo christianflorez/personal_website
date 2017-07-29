@@ -27,7 +27,7 @@ class PortfolioModal extends Component {
 
     return (
       <div>
-        <Button block bsStyle="info" onClick={this.open}>
+        <Button block bsStyle="primary" onClick={this.open}>
           View Details
         </Button>
 
@@ -44,15 +44,15 @@ class PortfolioModal extends Component {
             <h4>Technologies Used</h4>
             <p>{project.tech}</p>
             <a href={project.deploymentURL} className="modal-links">
-              <Button>Live Demo</Button>
+              <Button bsStyle="success">Live Demo</Button>
             </a>
             <br />
             <a href={project.githubURL} className="modal-links">
-              <Button>Source Code</Button>
+              <Button bsStyle="primary">Source Code</Button>
             </a>
           </Modal.Body>
           <Modal.Footer>
-          <Button onClick={this.close} bsStyle="primary">Close</Button>
+          <Button onClick={this.close} bsStyle="info">Close</Button>
           </Modal.Footer>
         </Modal>
       </div>
