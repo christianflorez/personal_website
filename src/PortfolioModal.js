@@ -43,11 +43,11 @@ class PortfolioModal extends Component {
             <p>{project.description}</p>
             <h4>Technologies Used</h4>
             <p>{project.tech}</p>
-            <a href={project.deploymentURL} className="modal-links">
+            <a href={project.deploymentURL} target="_blank" className="modal-links">
               <Button bsStyle="success">Live Demo</Button>
             </a>
             <br />
-            <a href={project.githubURL} className="modal-links">
+            <a href={project.githubURL} target="_blank" className="modal-links">
               <Button bsStyle="primary">Source Code</Button>
             </a>
           </Modal.Body>
