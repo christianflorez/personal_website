@@ -18,6 +18,16 @@ $text-color: #555;
 @import "~bootstrap-sass/assets/stylesheets/bootstrap";
 @import "~bootswatch/flatly/bootswatch";
 
+$offwhite: #FAFAFA;
+
+body {
+  background-color: $offwhite;
+}
+
+.panel {
+  background-color: $offwhite;
+}
+
 a,
 a:hover {
   transition: color .5s ease;
@@ -81,13 +91,13 @@ img {
 
 footer {
   background-color: $gray-darker;
-  color: white;
+  color: $offwhite;
 
   margin-top: 4em;
   padding-bottom: 4em;
 
   a {
-    color: white;
+    color: $offwhite;
     text-decoration: underline;
     cursor: pointer;
   }
