@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import { Image, Button, Modal } from "react-bootstrap";
+import { Image, Button, Modal, Glyphicon } from "react-bootstrap";
+import FontAwesome from "react-fontawesome";
 
 class PortfolioModal extends Component {
   constructor() {
@@ -43,11 +44,11 @@ class PortfolioModal extends Component {
               target="_blank"
               className="modal-links"
             >
-              <Button bsStyle="success">Live Demo</Button>
+              <Button bsStyle="success"><Glyphicon glyph="play-circle" /> Live Demo</Button>
             </a>
             <br />
             <a href={project.githubURL} target="_blank" className="modal-links">
-              <Button bsStyle="primary">Source Code</Button>
+              <Button className="github-btn"><FontAwesome name="github" /> Source Code</Button>
             </a>
           </Modal.Body>
           <Modal.Footer>
